@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "advocate",
+    "packageName": "eu.elsif.jh.advocate",
+    "packageFolder": "eu/elsif/jh/advocate",
+    "serverPort": 8181,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "el",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "OThjMGIxNWI2ZTY1MGM4OTNjNTliYmMxMjk5MzNhMTU1MWQ4MjA0MmVhYTBkYTc2NGU4OThiYjM0MWZhNDgwYTFjYTZhZGU0MDBmYmM0MGYyYTZlMmQyZjk0ZmNkMDY2NmY4ZmUwZDE5NTRjODljMDczMzBiNTM3N2UxOGYzMDk=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "panosadamop",
+  "repository-name": "jh-advocate-application"
+}
